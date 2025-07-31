@@ -10,6 +10,7 @@ function "tag" {
 
 target "toolkit" {
     args = { tiled_version = "${TILED_VERSION}" }
+    labels = null
     tags = tag("toolkit")
 }
 
@@ -19,6 +20,7 @@ target "with-aseprite" {
         toolkit = "target:toolkit"
     }
     dockerfile = "Dockerfile.ase"
+    labels = null
     tags = tag("with-aseprite")
 }
 
