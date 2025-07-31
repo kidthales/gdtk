@@ -50,4 +50,4 @@ ASEPRITE_UPSTREAM="docker-image://docker.io/myvendor/aseprite:headless-main"
 
 ## License
 
-[WTFPL](./LICENSE)
+[MIT](./LICENSE)
