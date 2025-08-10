@@ -51,7 +51,7 @@ RUN npm install -g tile-extruder yaml
 WORKDIR /workspace
 
 # HTTP
-EXPOSE 80/tcp
+EXPOSE 80/tcp 8080/tcp
 # HTTPS
 EXPOSE 443/tcp
 # HTTP/3
